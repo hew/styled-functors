@@ -7,11 +7,7 @@
   "author": "Matthew Jones <matt@hew.tools>",
   "license": "MIT",
   "dependencies": {
-    "bs-platform": "^4.0.0",
-    "bs-react-native": "^0.10.0",
-    "react-native": "^0.57.7",
-    "react-native-responsive-fontsize": "^0.1.2",
-    "reason-react": "^0.5.3"
+    "react-native-responsive-fontsize": "^0.1.2"
   },
   "devDependencies": {
     "bs-platform": "^4.0.0",
@@ -19,6 +15,11 @@
     "@glennsl/bs-jest": "^0.4.5",
     "global": "^4.3.2",
     "release-it": "^8.2.0"
+  },
+  "peerDependencies": {
+    "bs-react-native": "*",
+    "react-native": "*",
+    "reason-react": "*"
   },
   "scripts": {
     "start": "yarn bs:watch",
