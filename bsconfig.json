@@ -5,6 +5,7 @@
     "react-jsx": 2
   },
   "bs-dependencies": ["bs-react-native", "reason-react"],
+  "bs-dev-dependencies": ["@glennsl/bs-jest"],
   "bsc-flags": ["-bs-super-errors"],
   "refmt": 3,
   "sources": [
