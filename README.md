@@ -8,7 +8,7 @@
 * `<Flex />`
 * `<T />` (text)
 
-## More / Example
+## Example
 
 ```reason
 let make = (_children, ~user: Server.user) => {
@@ -30,6 +30,12 @@ let make = (_children, ~user: Server.user) => {
 };
 
 ```
+
+## Thoughts
+
+Honestly not sure about this API. It was born out of prototyping needs - something where I could manipulate styles inline quickly. 
+
+Sure it's verbose, but have you seen styling in Reason?
 
 ## Further Reading 
 
