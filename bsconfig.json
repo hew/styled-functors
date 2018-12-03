@@ -1,0 +1,19 @@
+{
+  "name": "styled-functors",
+  "namespace": true,
+  "reason": {
+    "react-jsx": 2
+  },
+  "bs-dependencies": ["bs-react-native", "reason-react"],
+  "bsc-flags": ["-bs-super-errors"],
+  "refmt": 3,
+  "sources": [
+    {
+      "dir": "re"
+    },
+    {
+      "dir": "__tests__",
+      "type": "dev"
+    }
+  ]
+}
