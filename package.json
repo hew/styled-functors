@@ -2,7 +2,7 @@
   "name": "styled-functors",
   "version": "0.0.1",
   "description": "React Native UI Primatives",
-  "main": "lib/js/re/index.js",
+  "main": "lib/js/re/Primatives.js",
   "repository": "git@github.com:hew/styled-functors.git",
   "author": "Matthew Jones <matt@hew.tools>",
   "license": "MIT",
