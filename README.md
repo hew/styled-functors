@@ -1,20 +1,16 @@
 # styled-functors
 
-> Write styles inline, using variant types.
+> Reason React Native UI Primatives 
 
-## Motivations
+## Primatives 
 
-I wanted to express something close to `styled-system` over in reason react native land.
+* `<Box />`
+* `<Flex />`
+* `<T />` (text)
 
-## Roadmap
+## More / Example
 
-- [ ] Clean up types (rei, etc)
-- [ ] Tests 
-
-## Example
-
-```reasonml
-
+```reason
 let make = (_children, ~user: Server.user) => {
   ...component,
   render: _self =>
@@ -34,6 +30,10 @@ let make = (_children, ~user: Server.user) => {
 };
 
 ```
+
+## Further Reading 
+
+* http://2ality.com/2018/01/polymorphic-variants-reasonml.html
 
 License
 ---
