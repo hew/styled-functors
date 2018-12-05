@@ -12,6 +12,8 @@
 
 `yarn add styled-functors`
 
+Then, add `styled-functors` to your `bsconfig.json`.
+
 ## Example
 
 ```reason
