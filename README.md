@@ -8,9 +8,16 @@
 * `<Flex />`
 * `<T />` (text)
 
+## Installation
+
+`yarn add styled-functors`
+
 ## Example
 
 ```reason
+open BsReactNative;
+open StyledFunctors.Primatives;
+
 let make = (_children, ~user: Server.user) => {
   ...component,
   render: _self =>
