@@ -46,6 +46,11 @@ Honestly not sure about this API. It was born out of prototyping needs - somethi
 
 Sure it's verbose, but have you seen styling in Reason?
 
+## Credits
+
+* https://github.com/Astrocoders/restyled
+
+
 ## Further Reading 
 
 * http://2ality.com/2018/01/polymorphic-variants-reasonml.html
