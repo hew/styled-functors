@@ -18,7 +18,7 @@ Then, add `styled-functors` to your `bsconfig.json`.
 
 ```reason
 open BsReactNative;
-open StyledFunctors.Primatives;
+open StyledFunctors;
 
 let make = (_children, ~user: Server.user) => {
   ...component,
