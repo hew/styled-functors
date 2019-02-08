@@ -12,13 +12,13 @@
   "author": "Matthew Jones <matt@hew.tools>",
   "license": "MIT",
   "dependencies": {
-    "bs-react-native": "^0.10.0",
-    "react-native": "^0.58.4",
-    "react-native-responsive-fontsize": "^0.1.2",
-    "reason-react": "^0.5.3"
+    "react-native-responsive-fontsize": "^0.1.2"
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.7",
+    "bs-react-native": "^0.10.0",
+    "react-native": "^0.58.4",
+    "reason-react": "^0.5.3",
     "bs-platform": "^4.0.0",
     "release-it": "^8.2.0"
   },

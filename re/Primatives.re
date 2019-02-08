@@ -181,8 +181,10 @@ module T =
       | `ml(m) => [marginLeft(Pct(m))]
       };
     let getFontStyle = fontType =>
+      /* These hardcoded values say for (rn-) web, just default to an iPad height */
+      /* Def not the best way to do this, but I'm tired. */
       switch (fontType) {
-      | `size(s) => [fontSize(Float(isWeb() ? s : rf(s)))]
+      | `size(s) => [fontSize(Float(isWeb() ? ((s *. 1024.) /. 100.) : rf(s)))]
       };
     let paddingStyle = spaceType =>
       switch (spaceType) {
