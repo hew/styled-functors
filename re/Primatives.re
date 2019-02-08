@@ -1,8 +1,5 @@
 open BsReactNative.Style;
 
-[@bs.module "react-native-responsive-fontsize"]
-external rf: float => float = "default";
-
 module Box =
   Functors.BoxView(
     {
@@ -178,7 +175,7 @@ module T =
         };
       let getFontStyle = fontType =>
         switch (fontType) {
-        | `size(s) => [fontSize(Float(rf(s)))]
+        | `size(s) => [fontSize(Float(Pt(s)))]
         };
       let paddingStyle = spaceType =>
         switch (spaceType) {
