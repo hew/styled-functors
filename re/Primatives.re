@@ -175,7 +175,7 @@ module T =
         };
       let getFontStyle = fontType =>
         switch (fontType) {
-        | `size(s) => [fontSize(Float(Pt(s)))]
+        | `size(s) => [fontSize(Float(s))]
         };
       let paddingStyle = spaceType =>
         switch (spaceType) {

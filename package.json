@@ -13,22 +13,14 @@
   "license": "MIT",
   "dependencies": {
     "bs-react-native": "^0.10.0",
-    "react": "16.2.0",
-    "react-dom": "16.2.1",
-    "react-native": "^0.53.3",
+    "react-native": "^0.58.4",
     "react-native-responsive-fontsize": "^0.1.2",
-    "reason-react": "^0.3.4",
-    "styled-functors": "^0.0.8"
+    "reason-react": "^0.5.3"
   },
   "devDependencies": {
-    "@glennsl/bs-jest": "^0.4.5",
+    "@glennsl/bs-jest": "^0.4.7",
     "bs-platform": "^4.0.0",
     "release-it": "^8.2.0"
-  },
-  "peerDependencies": {
-    "bs-react-native": "*",
-    "react-native": "*",
-    "reason-react": "*"
   },
   "scripts": {
     "start": "yarn bs:watch",
