@@ -3,6 +3,10 @@
   "version": "0.0.6",
   "description": "Reason React Native UI Primatives",
   "main": "re/index.js",
+  "files": [
+    "re/*.re",
+    "bsconfig.json"
+  ],
   "repository": "git@github.com:hew/styled-functors.git",
   "author": "Matthew Jones <matt@hew.tools>",
   "license": "MIT",
