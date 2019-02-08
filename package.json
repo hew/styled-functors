@@ -1,6 +1,6 @@
 {
   "name": "styled-functors",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Reason React Native UI Primatives",
   "main": "lib/js/re/index.js",
   "repository": "git@github.com:hew/styled-functors.git",
