@@ -1,6 +1,6 @@
 {
   "name": "styled-functors",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Reason React Native UI Primatives",
   "main": "re/index.js",
   "files": [
