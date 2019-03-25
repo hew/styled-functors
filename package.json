@@ -12,7 +12,8 @@
   "author": "Matthew Jones <matt@hew.tools>",
   "license": "MIT",
   "dependencies": {
-    "react-native-responsive-fontsize": "^0.1.2"
+    "react-native-iphone-x-helper": "^1.2.0",
+    "react-native-responsive-fontsize": "^0.1.8"
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.7",
